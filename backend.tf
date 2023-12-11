@@ -4,4 +4,4 @@ terraform {
     key    = "default-infrastructure.tfstate"
     region = "us-west-1"
   }
-}
+} 
