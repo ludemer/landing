@@ -4,9 +4,9 @@ provider "aws" {
 }
 resource "aws_s3_bucket" "example_bucket" {
   bucket = "test-terrat-credibankInfo"
-  acl    = "private"
-tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
+ # acl    = "private"
+#tags = {
+ #   Name        = "My bucket"
+  #  Environment = "Dev"
+  #}
 }
