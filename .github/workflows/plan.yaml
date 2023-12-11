@@ -1,5 +1,8 @@
 name: Create terraform plan
-on: [pull_request]
+on:
+  push:
+      branches:
+      - main  
 jobs:
   plan:  
     name: Terraform Plan
