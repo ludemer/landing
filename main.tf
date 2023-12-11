@@ -5,9 +5,9 @@ provider "aws" {
 
 
 terraform {
- # backend "remote" {
-  #  organization = "hashicorp-v2"
-  #}
+  backend "remote" {
+    organization = "hashicorp-v2"
+  }
 
   required_providers {
     github = {
