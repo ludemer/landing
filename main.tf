@@ -4,10 +4,10 @@ provider "aws" {
 }
 
 
-terraform {
-  backend "remote" {
-    organization = "hashicorp-v2"
-  }
+#terraform {
+ # backend "remote" {
+  #  organization = "hashicorp-v2"
+  #}
 
   required_providers {
     github = {
