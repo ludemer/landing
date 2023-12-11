@@ -2,7 +2,7 @@ name: Create terraform plan
 on:
   push:
       branches:
-      - main        
+      - main           
 jobs:
   plan:  
     name: Terraform Plan
