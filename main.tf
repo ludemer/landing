@@ -4,7 +4,7 @@
 #}
 
 
-#terraform {
+terraform {
  # backend "remote" {
   #  organization = "hashicorp-v2"
   #}
